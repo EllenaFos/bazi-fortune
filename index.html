@@ -3,57 +3,173 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>周报存档 · 我的八字运势</title>
-<link rel="stylesheet" href="../css/style.css" />
+<title>我的八字命盘 · 戊子 壬戌 丁亥 戊申</title>
+<link rel="stylesheet" href="style.css" />
 </head>
 <body>
 <nav class="top-nav">
   <div class="nav-inner">
-    <a href="../index.html" class="nav-brand">☯ 我的命盘</a>
+    <a href="index.html" class="nav-brand">☯ 我的命盘</a>
     <div class="nav-links">
-      <a href="../index.html">命盘</a>
-      <a href="index.html" class="active">周报</a>
+      <a href="index.html" class="active">命盘</a>
+      <a href="weekly.html">周报</a>
     </div>
   </div>
 </nav>
 
 <div class="container">
-  <div class="header">
-    <h1>每周运势周报</h1>
-    <div class="subtitle">WEEKLY FORTUNE REPORTS</div>
-    <div class="meta">基于八字命盘 · 每周一自动更新 · 戊子 壬戌 丁亥 戊申</div>
-  </div>
 
-  <div class="section">
-    <div class="section-title">最新周报 <small>LATEST</small></div>
-    <div class="card" style="text-align: center; padding: 32px;">
-      <p style="font-size: 18px; color: var(--gold-bright); margin-bottom: 12px;">📅 2026 年第 26 周</p>
-      <p style="color: var(--ink-soft); margin-bottom: 24px;">6月23日 – 6月29日 · 农历五月初九至十五</p>
-      <a href="2026-W26.html" class="btn-primary">查看本周详细运势 →</a>
+  <!-- Header -->
+  <div class="header">
+    <h1>八字命盘解析</h1>
+    <div class="subtitle">戊子 · 壬戌 · 丁亥 · 戊申</div>
+    <div class="meta">
+      阳历 2008 年 10 月 14 日 16:01（真太阳时） · 女命 · 生肖鼠 · 淄博出生
     </div>
   </div>
 
+  <!-- Section 1: Four Pillars -->
   <div class="section">
-    <div class="section-title">历史周报 <small>ARCHIVE</small></div>
-    <ul class="archive-list">
-      <li>
+    <div class="section-title">四柱排盘 <small>FOUR PILLARS</small></div>
+    <div class="bazi-grid">
+      <div class="pillar">
+        <div class="pillar-label">年 柱</div>
+        <div class="pillar-stem">戊</div>
+        <div class="pillar-branch">子</div>
         <div>
-          <a href="2026-W26.html">第 26 周运势</a>
-          <span class="archive-tag" style="margin-left: 12px;">最新</span>
+          <span class="pillar-tag">伤官</span>
+          <span class="pillar-tag">七杀</span>
         </div>
-        <span class="archive-date">2026.06.23 – 06.29</span>
-      </li>
-    </ul>
-    <p style="text-align: center; color: var(--ink-dim); font-size: 13px; margin-top: 20px;">📌 每周一早上 8:00 自动生成新周报</p>
+        <div class="pillar-meta">霹雳火 · 绝</div>
+        <div class="hidden-stems">藏干：癸（七杀）</div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-label">月 柱</div>
+        <div class="pillar-stem">壬</div>
+        <div class="pillar-branch">戌</div>
+        <div>
+          <span class="pillar-tag">正官</span>
+          <span class="pillar-tag">伤官</span>
+        </div>
+        <div class="pillar-meta">大海水 · 养</div>
+        <div class="hidden-stems">藏干：戊辛丁</div>
+      </div>
+      <div class="pillar day">
+        <div class="pillar-label">日 柱</div>
+        <div class="pillar-stem">丁</div>
+        <div class="pillar-branch">亥</div>
+        <div>
+          <span class="pillar-tag">日主</span>
+          <span class="pillar-tag">正官+正印</span>
+        </div>
+        <div class="pillar-meta">屋上土 · 胎</div>
+        <div class="hidden-stems">藏干：壬甲</div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-label">时 柱</div>
+        <div class="pillar-stem">戊</div>
+        <div class="pillar-branch">申</div>
+        <div>
+          <span class="pillar-tag">伤官</span>
+          <span class="pillar-tag">正财+正官</span>
+        </div>
+        <div class="pillar-meta">大驿土 · 沐浴</div>
+        <div class="hidden-stems">藏干：庚壬戊</div>
+      </div>
+    </div>
+
+    <div class="elements">
+      <div class="element-cell"><div class="el-name">木</div><div class="el-count el-wood">1</div></div>
+      <div class="element-cell"><div class="el-name">火</div><div class="el-count el-fire">2</div></div>
+      <div class="element-cell"><div class="el-name">土</div><div class="el-count el-earth">4</div></div>
+      <div class="element-cell"><div class="el-name">金</div><div class="el-count el-metal">3</div></div>
+      <div class="element-cell"><div class="el-name">水</div><div class="el-count el-water">6</div></div>
+    </div>
   </div>
 
+  <!-- Section 2: Pattern -->
+  <div class="section">
+    <div class="section-title">命格核心 <small>CORE PATTERN</small></div>
+    <div class="card">
+      <h3>
+        <span class="pattern-badge">丁壬合</span>
+        <span class="pattern-badge">官伤并见</span>
+        <span class="pattern-badge">申子半合水</span>
+      </h3>
+      <p>丁火日主，如烛光、如星火，生于深秋戌月——火已退气、水已进气。天干两透戊土伤官泄火，壬水正官贴身合住日主（丁壬合木），地支亥子水汇聚、申子半合水局——水势滔天，火苗虽秀美但经不住大水冲刷与湿土覆盖，<strong style="color: var(--gold-bright)">身偏弱</strong>。</p>
+      <p>好在地支戌中有丁火微根，日支亥中藏甲木正印可生火，时支申中壬水正官再添贵气——不算无救。</p>
+      <div class="lead">喜用：<strong style="color: #6b9a5c">木</strong>（印星生身暖局）、<strong style="color: #c44a3c">火</strong>（比劫助燃）｜忌：水（官杀压身）、土（伤官泄气过重）</div>
+      <p style="color: var(--gold); margin-top: 12px;">📜 烛光映秋水，外柔内秀、灵气逼人。木来添油、火来添焰，方能持续发光。</p>
+    </div>
+  </div>
+
+  <!-- Section 3: Interactions -->
+  <div class="section">
+    <div class="section-title">刑冲合会 <small>INTERACTIONS</small></div>
+    <div class="interaction-grid">
+      <div class="interaction-item he"><span class="ilabel">天干合</span> 丁壬合木 — 日主合月干正官，有情义、重规矩</div>
+      <div class="interaction-item he"><span class="ilabel">地半合</span> 申子半合水 — 时年遥合，使命牵引</div>
+      <div class="interaction-item ke"><span class="ilabel">天干克</span> 戊壬相克 — 伤官见官，才华与规矩的博弈</div>
+      <div class="interaction-item hai"><span class="ilabel">地支害</span> 亥申相害 — 日时相害，亲密中有暗流</div>
+    </div>
+  </div>
+
+  <!-- Section 4: Decade Fortune -->
+  <div class="section">
+    <div class="section-title">大运流转 <small>DECADE FORTUNE</small></div>
+    <div class="dayun-grid">
+      <div class="dayun-cell"><div class="dy-pillar">辛酉</div><div>偏财</div><div class="dy-age">3–12</div></div>
+      <div class="dayun-cell current"><div class="dy-pillar">庚申</div><div>正财 · 当前</div><div class="dy-age">13–22</div></div>
+      <div class="dayun-cell"><div class="dy-pillar">己未</div><div>食神</div><div class="dy-age">23–32</div></div>
+      <div class="dayun-cell"><div class="dy-pillar">戊午</div><div>伤官</div><div class="dy-age">33–42</div></div>
+      <div class="dayun-cell"><div class="dy-pillar">丁巳</div><div>比肩</div><div class="dy-age">43–52</div></div>
+      <div class="dayun-cell"><div class="dy-pillar">丙辰</div><div>劫财</div><div class="dy-age">53–62</div></div>
+      <div class="dayun-cell"><div class="dy-pillar">乙卯</div><div>偏印</div><div class="dy-age">63–72</div></div>
+      <div class="dayun-cell"><div class="dy-pillar">甲寅</div><div>正印</div><div class="dy-age">73–82</div></div>
+      <div class="dayun-cell"><div class="dy-pillar">癸丑</div><div>七杀</div><div class="dy-age">83–92</div></div>
+      <div class="dayun-cell"><div class="dy-pillar">壬子</div><div>正官</div><div class="dy-age">93–102</div></div>
+    </div>
+  </div>
+
+  <!-- Section 5: Life rhythm -->
+  <div class="section">
+    <div class="section-title">人生节奏 <small>LIFE PHASES</small></div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-month">13–22 岁 · 庚申大运（当前）</div>
+        <div class="timeline-pillar">正财 · 蓄力阶段</div>
+        <div class="timeline-desc">学业是主战场。财星引动好奇心和对世界运转方式的理解。</div>
+      </div>
+      <div class="timeline-item good">
+        <div class="timeline-month">23–32 岁 · 己未大运</div>
+        <div class="timeline-pillar">食神 · 才华落地</div>
+        <div class="timeline-desc">食神制杀——七杀被制、才华释放的黄金期。创意、文化、教育领域大放异彩。</div>
+      </div>
+      <div class="timeline-item hot">
+        <div class="timeline-month">33–42 岁 · 戊午大运</div>
+        <div class="timeline-pillar">伤官+比肩 · 爆发期</div>
+        <div class="timeline-desc">午火禄神坐支，丁火得强援，真正的输出时代。事业将进入快速通道。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 6: Latest Weekly -->
+  <div class="section">
+    <div class="section-title">最新周报 <small>WEEKLY FORTUNE</small></div>
+    <div class="card" style="text-align: center; padding: 32px;">
+      <p style="font-size: 18px; color: var(--gold-bright); margin-bottom: 16px;">📅 本周运势已更新</p>
+      <p style="color: var(--ink-soft); margin-bottom: 24px;">每周一自动生成当周运势建议，结合你的八字命盘与流日、流月吉凶</p>
+      <a href="weekly.html" class="btn-primary">查看本周周报 →</a>
+    </div>
+  </div>
+
+  <!-- Disclaimer -->
   <div class="disclaimer">
-    ⚠️ 以上为玄学体系的传统解读与象征推演，仅供参考。本回复由 AI 生成，不构成医疗、法律、财务或投资建议；命理是参考，不是定数。
+    ⚠️ 以上为玄学体系的传统解读与象征推演，仅供参考。本回复由 AI 生成，不构成医疗、法律、财务或投资建议；命理是参考，不是定数。涉及健康、法律、重大财务决策请咨询相应专业人士。
   </div>
 
-  <div class="footer">
-    戊子 壬戌 丁亥 戊申 · 女命 · 庚申大运 · 自动运势周报系统
-  </div>
 </div>
+
+<script src="main.js"></script>
 </body>
 </html>
